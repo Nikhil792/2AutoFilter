@@ -5,7 +5,7 @@ class script(object):
     
     HELP_TXT = """» ᴡʜᴇʀᴇ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ?."""
 
-    ABOUT_TXT = """<blockquote><b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/TrexOfficialsBot">ʟᴜᴄʏ ʙᴏᴛ</a>
+    ABOUT_TXT = """<blockquote><b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/TrexOfficialsBot">TrexOfficialsBot</a>
 ❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Trexowner">Subaru</a>
 ❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
