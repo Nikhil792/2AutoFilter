@@ -168,7 +168,14 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'weekly-kippie-technik659-053cab2f.koyeb.app'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else "https://{}/".format(FQDN, PORT)
+URL = "https://{}/".format(FQDN)
+# ✅ PORT define karo (agar env me nahi mila to 8080 default)
+PORT = int(environ.get('PORT', 8080))
+if ON_HEROKU or NO_PORT:
+    URL = f"https://{FQDN}/"
+else:
+    URL = f"https://{FQDN}:{PORT}/"
+    
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'Trexofficialsbot'))
@@ -182,9 +189,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = f"https://{FQDN}/"
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = f"http://{FQDN}/"
 
 # ============================
 # Reactions Configuration
