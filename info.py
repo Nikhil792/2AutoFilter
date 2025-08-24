@@ -69,7 +69,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://NG:NG@cluster0.rc0sp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://GG:GG@ggg.in1al.mongodb.net/?retryWrites=true&w=majority&appName=GGG")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "GGG")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
 
 # ============================
