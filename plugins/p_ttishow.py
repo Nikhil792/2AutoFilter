@@ -44,7 +44,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/+OXOBPSHFpQhjZWNl'),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Trexofficials_support'),
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/+OXOBPSHFpQhjZWNl')
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
