@@ -38,7 +38,7 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/Trexowner"),
-                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/Trexofficials_support')
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https:/t.meTrexSupportchatBot')
                 ],[
                     InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/+OXOBPSHFpQhjZWNl")
                   ]]
