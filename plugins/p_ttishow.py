@@ -29,7 +29,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('• ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ •', url=f'https://t.me/Trexofficials_support')
+                InlineKeyboardButton('• ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ •', url=f'https://t.me/TrexSupportchatBot')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -44,7 +44,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Trexofficials_support'),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/TrexSupportchatBot'),
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/+OXOBPSHFpQhjZWNl')
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -90,7 +90,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                  InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Trexofficials_support')
+                  InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/TrexSupportchatBot')
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -129,7 +129,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Trexofficials_support')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/TrexSupportchatBot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
