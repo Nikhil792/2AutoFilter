@@ -91,8 +91,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_verifylink')  
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4b80684b77a7c8a4dbda3b64e200c7f78ed13fc0')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '53229e400eba26696058cd2640bd120261864a01')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_verifylink')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
